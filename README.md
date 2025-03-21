@@ -6,6 +6,9 @@ Retrieval-Augmented Generation (RAG) es una técnica en inteligencia artificial 
 
 ---
 
+## Ejecución python
+Podemos encontrar un script de python donde se contienen las instrucciones de ejecución. Deben reemplazarse las llaves por valores de API KEY de openAI y pinecode para poderlo ejecutar. Luego de iniciar la ejecución este va a pedir una entrada a lo que va a dar una posterior respuesta.
+
 ## Arquitectura
 
 1. **Carga de documentos**: Carga documentos desde una fuente web En este caso usamos https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/
