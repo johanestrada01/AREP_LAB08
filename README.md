@@ -127,9 +127,9 @@ Task Decomposition is the process of breaking down a complicated task into small
 
 ## Capturas
 
-![image]()
+![image](https://github.com/johanestrada01/AREP_LAB08/blob/main/Imagenes/Captura%20desde%202025-03-21%2012-59-14.png)
 
-![image]()
+![image](https://github.com/johanestrada01/AREP_LAB08/blob/main/Imagenes/Captura%20desde%202025-03-21%2013-00-38.png)
 
 ---
 
