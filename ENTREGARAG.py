@@ -8,16 +8,16 @@ import getpass
 import os
 
 os.environ["LANGSMITH_TRACING"] = "true"
-os.environ["LANGSMITH_API_KEY"] = "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"
+os.environ["LANGSMITH_API_KEY"] = "llave"
 
 
 # In[2]:
 
 
 import getpass
-import os
+import os   
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "llave"
 
 from langchain.chat_models import init_chat_model
 
@@ -44,7 +44,7 @@ embeddings = OpenAIEmbeddings(model="text-embedding-3-large")
 from langchain_pinecone import PineconeVectorStore
 from pinecone import Pinecone
 
-pc = Pinecone(api_key="pcsk_6Fr3Pb_73meh55ukYoDApU4tqUsxsuN5yT2qWVLkFKKoVNE7v7UQBPJ6mPv1mcqvPLHpmA")
+pc = Pinecone(api_key="pcsk_6heYsa_QzmstKiH4RtTtaBPk8zvTKYPr5LFL6uQWbED5s6xXK3GZv7Ww23aENErs6dNwMQ")
 index = pc.Index("rag")
 
 vector_store = PineconeVectorStore(embedding=embeddings, index=index)
